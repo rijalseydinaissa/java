@@ -1,0 +1,8 @@
+# URL de la base de données
+db.url=jdbc:postgresql://localhost:5432/javapur
+
+# Nom d'utilisateur de la base de données
+db.user=postgres
+
+# Mot de passe de l'utilisateur de la base de données
+db.password=postgres

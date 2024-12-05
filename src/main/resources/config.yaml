@@ -1,0 +1,23 @@
+storage:
+  type: "Db" # Choisissez "List" pour le stockage en mémoire ou "Db" pour le stockage en base de données
+
+Repository:
+  List:
+    ArticleRepository: org.odc.Repository.ArticleRepositoryList
+    ClientRepository: org.odc.Repository.ClientRepositoryList
+    DetteRepository: org.odc.Repository.DetteRepositoryList
+    PaiementRepository: org.odc.Repository.PaiementRepositoryList
+    CompteRepository: org.odc.Repository.CompteRepositoryList
+  Db:
+    ArticleRepository: org.odc.Repository.ArticleRepositoryDb
+    ClientRepository: org.odc.Repository.ClientRepositoryDb
+    DetteRepository: org.odc.Repository.DetteRepositoryDb
+    PaiementRepository: org.odc.Repository.PaiementRepositoryDb
+    CompteRepository: org.odc.Repository.CompteRepositoryDb
+
+Service:
+  ArticleService: org.odc.Service.ArticleServiceImpl
+  ClientService: org.odc.Service.ClientServiceImpl
+  DetteService: org.odc.Service.DetteServiceImpl
+  PaiementService: org.odc.Service.PaiementServiceImpl
+  CompteService: org.odc.Service.CompteServiceImpl
